@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 # Your target server
-TARGET = "http://us-2.galactichosting.net:10185/"
+TARGET = "http://us-2.galactichosting.net:10185"
 
 # Headers that should not be forwarded
 EXCLUDED_HEADERS = {
